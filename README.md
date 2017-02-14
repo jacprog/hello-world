@@ -1,2 +1,3 @@
-# hello-world
-hello to the world of git hub
+# Hello-world!
+Hello to the world of git hub.
+Learning how to get around:)

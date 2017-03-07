@@ -1,0 +1,80 @@
+/*
+    Name: Jacques Favre
+    Date: Jan 17 2017
+    Class: CGS1821.051
+    Assignment: Week 2, exercise 1
+    Language: CSS 3
+    Purpose: Exercise 1
+    Includes:
+*/
+
+html, body, header, h1{
+    padding: 0;
+    margin: 0;
+    
+} /*This is a reset that reduces browser inconsistencies */
+/* sides light red */
+html {
+	background-color: #ffcccc;  
+	}
+
+
+body { 
+  	font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 100%;
+  	width: 99%;
+	max-width: 960px;
+	margin: 0 auto; /* margin top and bottom 0, and automatic on side*/
+	background-color: #ffe6e6;  /* to make all very light red*/ 
+}
+
+header { 
+    	background-color: #800000;
+}
+
+	header h1 {
+		font-size: 400%;
+		padding: .5em .75em;
+		color: white;
+	}
+
+/* the styles for the main area, 90% to have a margin on all small screens and all elements aligned*/	
+	main {
+	clear: left;
+	width: 90%;
+
+	margin: 0 auto;
+	
+}
+
+
+h1 {
+    
+}
+
+nav { 
+	display: block;
+		text-align: center;
+		padding: 1em 0;
+		text-decoration: none;
+		background-color: grey;
+		color: white;
+		font-weight: bold;
+		}
+
+ 
+footer { 
+    padding: 1em 0;
+    background-color: #800000;  /* to make footer almost black */
+	margin-top: 1em;
+	margin-bottom : 5px;
+	clear: right;
+}
+footer p {
+	  	text-align: center;
+		color: white;
+}
+footer p a {
+	    	text-decoration: none;
+	    	color: white;
+}
